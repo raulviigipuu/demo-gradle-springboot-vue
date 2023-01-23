@@ -1,7 +1,6 @@
 <template>
-  <div class="home">
-    This a test assignment.
-    <pre>
+  <h1>This is a test assignment.</h1>
+  <pre>
       Home - test assignment description
       Doctors - board for managing doctors
       Ambulance teams - board for managing ambulance teams
@@ -21,16 +20,4 @@
 
       Setup Selenide tests (or vanilla Selenium) and make some test for every page.
     </pre>
-  </div>
-
-
 </template>
-
-<script>
-import Vue from "vue";
-
-export default Vue.extend({
-  name: "Home",
-  components: {}
-});
-</script>
